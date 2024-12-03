@@ -21,7 +21,7 @@
 #define CORRELATION_THRESHOLD 0.3f
 
 InterruptIn gyro_int2(PA_2, PullDown);
-InterruptIn user_button(USER_BUTTON, PullDown);
+InterruptIn user_button(PA_0, PullDown);
 
 DigitalOut green_led(LED1);
 DigitalOut red_led(LED2);
