@@ -1,24 +1,34 @@
-# RTES-Challenge
- Final Project for NYU Tandon EC-GY-6483
+# RTES Challenge  
+**Final Project for NYU Tandon | EC-GY-6483**  
 
-### Group Members:
+### Group Members:  
+- Vishwas Karale (vbk2570)  
+- Nikhil Bhise (nb4053)  
+- Shreyansh Bhalani (sbb9447)  
 
-- Brijendra Asthana (bka2022)
-- Charlie Wu (qw2246)
-- Chengyu Zheng (cz2686)
-- Chen Yang (cy2478)
+### Instructions for Use:  
 
-### How to Use:
+1. **Compile and Upload Code**  
+   - Begin by compiling the code and uploading it to the board.  
 
-- Compile and upload code to the board.
-- Two buttons "Record" and "Unlock" will show on the LCD screen.
-- Click on the "Record" button to record a gesture key sequence.
-- Follow the prompt on the LCD screen. 
-- Wait until "**Recording...**" is shown at the bottom of the screen.
-- Perform the gesture to input the key within **5** seconds.
-- Click on the "Unlock" button to unlock the device.
-- Follow the prompt on the LCD screen. 
-- Wait until "**Recording...**" is shown at the bottom of the screen.
-- Perform the same gesture to unlock the device.
-- Unlocking fail will light the red LED, ulocking succeed will light the green LED
-- Press the blue user button will clear everything recorded. 
+2. **Interacting with the Device**  
+   - The LCD screen will display two options: **"Record"** and **"Unlock"**.  
+
+3. **Recording a Gesture Key**  
+   - Select the **"Record"** button to initiate gesture recording.  
+   - Follow the instructions displayed on the LCD screen.  
+   - Wait until "**Recording...**" appears at the bottom of the screen.  
+   - Perform the desired gesture within **5 seconds** to set it as the key.  
+
+4. **Unlocking the Device**  
+   - Select the **"Unlock"** button to attempt unlocking.  
+   - Follow the instructions displayed on the LCD screen.  
+   - Wait until "**Recording...**" appears at the bottom of the screen.  
+   - Perform the previously recorded gesture to unlock the device.  
+
+5. **Unlock Feedback**  
+   - If the gesture matches, the **green LED** will light up, indicating success.  
+   - If the gesture does not match, the **red LED** will light up, indicating failure.  
+
+6. **Resetting the Device**  
+   - Press the **blue user button** to clear all recorded data and reset the device.
